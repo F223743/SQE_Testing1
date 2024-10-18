@@ -13,13 +13,11 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.LoginPage;
-import pages.ProductsPage;
 import java.time.Duration;
 
 public class LoginSteps {
     WebDriver driver;
     LoginPage loginPage;
-    ProductsPage productsPage;
     WebDriverWait wait;
 
     @Before
