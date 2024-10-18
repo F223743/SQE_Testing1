@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
     features = {
         "E:\\SQE project\\selenium_mvn_eclipse\\src\\test\\resources\\feature\\login.feature",
-        "E:\\SQE project\\selenium_mvn_eclipse\\src\\test\\resources\\feature\\YourCart.feature"      // Added Cart feature
+        "E:\\SQE project\\selenium_mvn_eclipse\\src\\test\\resources\\feature\\YourCart.feature",
+        "C:\Users\HP\OneDrive\Desktop\selenium_mvn_eclipse\src\test\resources\feature\Product.feature"
     },
     glue = {"selenium_mvn_eclipse"}, // Package containing step definitions
     plugin = {
